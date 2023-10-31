@@ -32,7 +32,7 @@ public class BookController {
 		List<Book> booksList = bookRepo.findAll();
 		model.addAttribute("books", booksList);
 
-		logger.info("*** displayForm () method execution end ***");
+		logger.info("*** displayForm () method execution end****");
 		return "index";
 	}
 

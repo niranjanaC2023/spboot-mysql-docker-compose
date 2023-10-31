@@ -7,9 +7,9 @@ services:
     networks:
       - niranjana-network
     depends_on:
-      - mysqldb
+      - localhost
     
-  mysqldb:
+  localhost:
     image: mysql:8.5
     networks:
       - niranjana-network
