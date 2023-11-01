@@ -13,7 +13,7 @@
 	<artifactId>spboot-mysql-docker-compose</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spboot-mysql-docker-compose</name>
-	<description>springboot and Mysql with Docker Compose</description>
+	<description>springboot selecting jar and Mysql with Docker Compose</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

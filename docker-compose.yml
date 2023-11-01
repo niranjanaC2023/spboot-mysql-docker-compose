@@ -1,7 +1,7 @@
 version: "3"
 services:
   application:
-    image: spring-boot-mysql-app
+    image: spring-boot-docker mysql-app-image
     ports:
       - "8080:2525"
     networks:
@@ -10,7 +10,7 @@ services:
       - localhost
     
   localhost:
-    image: mysql:8.5
+    image: mysql:8.0
     networks:
       - niranjana-network
     environment:
